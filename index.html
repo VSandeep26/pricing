@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="script" href="script.js">
+  <title>C-Programming Course</title>
+</head>
+<body>
+
+  <header>
+    <h1>C - Programming Course Plans</h1>
+  </header>
+
+  <section class="pricing-plans">
+    <div class="plan" data-plan="Basic">
+        	<h2>Basic</h2>
+                <hr> 
+                <h3> ₹ 500/<span>Month</span></h3> 
+                <ul> 
+                    <li>Live Online Classes</li><hr>
+                    <li>Hands on Project</li><hr>
+                    <li>Live Doubt Session</li><hr>
+                    <li>Certificate on Completion</li><hr> 
+                </ul> 
+                <button>Buy Now</button>
+    </div>
+    <div class="plan" data-plan="Standard*">
+                <h2>Standard*</h2> 
+                <hr> 
+                <h3>₹ 1000/<span>Month</span></h3> 
+                <ul> 
+                    <li>All Basic Features</li><hr>
+                    <li>Data Structure & Algorithms</li><hr>
+                    <li>Memory Management in C</li><hr>
+                    <li>Limit upto 2 users</li><hr>
+                </ul> 
+                <button>Buy Now</button>
+    </div>
+    <div class="plan" data-plan="Premium">
+                <h2>Premium</h2> 
+                <hr> 
+                <h3>₹ 1600/<span>Month</span></h3> 
+                <ul> 
+                    <li>All standard Features</li><hr>
+                    <li>Recorded Lectures</li><hr>
+                    <li>Placement Assistance</li><hr>
+                    <li>Limit upto 4 users</li><hr>
+                </ul> 
+                <button>Buy Now</button>
+    </div>
+  </section>
+
+  <section class="payment-details" id="payment-details">
+    <div class="payment-content">
+      <h2>Payment Details</h2>
+      <form>
+
+        <label for="payment-method">Payment Method:</label>
+        <select id="payment-method" name="payment-method">
+          <option value="visa">Visa</option>
+          <option value="mastercard">Master Card</option>
+          <option value="amex">American Express</option>
+        </select><hr>
+  
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+        
+        <label for="expiration-date">Expiration Date:</label>
+        <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YYYY" required>
+        
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+
+        <button type="submit">Submit Payment</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
